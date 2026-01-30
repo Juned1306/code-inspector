@@ -19,7 +19,7 @@ public class SwaggerConfig {
                         .version("1.0.0")
                         .contact(new Contact()
                                 .name("Juned Shaikh")
-                                .email("juned3161@gmail.com")
+                                .email("junedshaikh3161@gmail.com")
                                 .url("https://github.com/Juned1306"))
                         .license(new License()
                                 .name("Apache 2.0")
