@@ -9,8 +9,7 @@
 - Inspect and review source code for **errors**, **best practices**, and **performance improvements**.  
 - Provides **corrected code**, **error highlights**, and **suggestions**.  
 - Maintains **history of code inspections** (coming soon in next updates).  
-- **Frontend** with live code editor, syntax highlighting, and dark/light theme.  
-- **Copy-corrected code** functionality with a single click.  
+- **Frontend** with live code editor, syntax highlighting, and dark/light theme.   
 - **Backend** powered by **Gemini AI** for accurate code analysis.  
 - Fully documented APIs with **Swagger/OpenAPI**.  
 
@@ -44,21 +43,21 @@ The backend uses **Gemini AI** for code inspection. Set your API key in environm
  Windows (PowerShell)
 $env:GOOGLE_API_KEY="your_gemini_api_key_here"
 
-# Navigate to project root (where pom.xml is located)
+** Navigate to project root (where pom.xml is located) **
 mvn clean spring-boot:run
 
-# Navigate to frontend folder
+** Navigate to frontend folder **
 cd code-inspector-frontend
 npm install
 npm start
 
 
-Swagger API Documentation
+** Swagger API Documentation **
 Access Swagger UI after starting the backend:
 
 Swagger URL: http://localhost:8080/swagger-ui.html
 
-Available APIs:
+** Available APIs: **
 
 Inspect Code: POST /api/code
 
