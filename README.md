@@ -20,7 +20,7 @@
 
 - **Backend:** Java, Spring Boot, Spring Data JPA, Swagger/OpenAPI, Gemini AI SDK  
 - **Frontend:** React.js, React Simple Code Editor, Prism.js  
-- **Database:** H2 / MySQL (configurable in `application.properties`)  
+- **Database:**  MySQL (configurable in `application.properties`)  
 - **Others:** Axios for API calls, CORS enabled  
 
 ---
